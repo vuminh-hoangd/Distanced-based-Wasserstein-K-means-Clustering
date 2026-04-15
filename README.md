@@ -1,7 +1,7 @@
 # Distanced-based Wasserstein $K$-means Clustering 
 
 
-**Clustering Performance Across Fashion-MNIST Class Pairs**
+**Comparing Clustering Performance Across Fashion-MNIST Class Pairs using D-WKM, K-means and GMM**
 
 - **Well-Separated Distributions.** D-WKM achieves optimal clustering performance when class distributions are well-separated in Wasserstein space. For visually distinct pairs such as *T-shirt vs. Sandal* and *Trouser vs. Sneaker*, D-WKM with K-means++ initialization attains perfect or near-perfect clustering scores (Accuracy ≈ 1.0, NMI ≈ 1.0, ARI ≈ 1.0). In these cases, K-means++ initialization consistently outperforms random initialization.
 
