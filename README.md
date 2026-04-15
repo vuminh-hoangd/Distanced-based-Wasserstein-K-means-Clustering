@@ -1,1 +1,3 @@
-# Distanced-based Wasserstein K-means Clustering 
+# Distanced-based Wasserstein $K$-means Clustering 
+
+
