@@ -8,11 +8,7 @@ $$
 W_2^2(\mu, \nu) = \inf_{\gamma \in \Gamma(\mu,\nu)} \int_{\mathbb{R}^d \times \mathbb{R}^d} \|x - y\|_2^2 \, d\gamma(x,y),
 $$
 
-where $\Gamma(\mu, \nu)$ denotes the set of all couplings of $\mu$ and $\nu$, i.e., the collection of all Borel probability measures $\gamma$ on $\mathbb{R}^d \times \mathbb{R}^d$ whose marginals are $\mu$ and $\nu$ respectively. Formally, $\gamma \in \Gamma(\mu, \nu)$ if and only if
-$$
-\gamma(A \times \mathbb{R}^d) = \mu(A) \quad \text{and} \quad \gamma(\mathbb{R}^d \times A) = \nu(A)
-$$
-for all Borel measurable sets $A \subseteq \mathbb{R}^d$.
+where $\Gamma(\mu, \nu)$ denotes the set of all couplings of $\mu$ and $\nu$, i.e., the collection of all Borel probability measures $\gamma$ on $\mathbb{R}^d \times \mathbb{R}^d$ whose marginals are $\mu$ and $\nu$ respectively. 
 
 ### Distance-based Wasserstein $K$-means (D-WKM)
 
