@@ -2,10 +2,10 @@
 
 ## Background and Definitions
 
-Let $(\mathcal{X}, ||\cdot||_2)$ be $\mathbb{R}^d$ equipped with the Euclidean norm, and let $\mu, \nu \in \mathcal{P}_2(\mathbb{R}^d)$, i.e. the space of all probability measures on $\mathbb{R}^d$ with finite second moments. The squared Wasserstein 2-distance between $\mu$ and $\nu$ is defined as
+Let $(\mathcal{X}, \|\cdot\|_2)$ be $\mathbb{R}^d$ equipped with the Euclidean norm, and let $\mu, \nu \in \mathcal{P}_2(\mathbb{R}^d)$, i.e. the space of all probability measures on $\mathbb{R}^d$ with finite second moments. The squared Wasserstein 2-distance between $\mu$ and $\nu$ is defined as
 
 $$
-W_2^2(\mu, \nu) = \inf_{\gamma \in \Gamma(\mu,\nu)} \int_{\mathbb{R}^d \times \mathbb{R}^d} \|x - y\|_2^2 \, d\gamma(x,y),
+W_2^2(\mu, \nu) = \inf_{\gamma \in \Gamma(\mu,\nu)} \int_{\mathbb{R}^d \times \mathbb{R}^d} \|x - y\|_2^2  d\gamma(x,y),
 $$
 
 where $\Gamma(\mu, \nu)$ denotes the set of all couplings of $\mu$ and $\nu$, i.e., the collection of all Borel probability measures $\gamma$ on $\mathbb{R}^d \times \mathbb{R}^d$ whose marginals are $\mu$ and $\nu$ respectively. 
