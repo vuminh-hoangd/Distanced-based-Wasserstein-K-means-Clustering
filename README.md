@@ -23,7 +23,7 @@ $$
 Correspondingly, we can analogously design an algorithm for the update rule. Given an initial cluster estimate $G_1^{(0)}, \dots, G_K^{(0)}$, one assigns each probability measure $\mu_1, \dots, \mu_n$ based on minimizing the averaged squared $W_2$ distances to all current members in every cluster, leading to an updated cluster rule as
 
 $$
-G_k^{(t+1)} = \Big\{ i \in [n] : \frac{1}{|G_k^{(t)}|} \sum_{s \in G_k^{(t)}} W_2^2(\mu_i, \mu_s) \leq \frac{1}{|G_j^{(t)}|} \sum_{s \in G_j^{(t)}} W_2^2(\mu_i, \mu_s), \quad \forall j \in [K] \Big\} \tag{1}
+G_k^{(t+1)} = \{ i \in [n] : \frac{1}{|G_k^{(t)}|} \sum_{s \in G_k^{(t)}} W_2^2(\mu_i, \mu_s) \leq \frac{1}{|G_j^{(t)}|} \sum_{s \in G_j^{(t)}} W_2^2(\mu_i, \mu_s), \quad \forall j \in [K] \} \tag{1}
 $$
 
 ## Comparing Clustering Performance Across Fashion-MNIST Class Pairs using D-WKM, K-means and GMM
